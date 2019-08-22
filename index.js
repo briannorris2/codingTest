@@ -9,8 +9,6 @@ distribute(10, nameArray);
 distribute(5, nameArray);
 distribute(3, nameArray);
 
-
-
 function distribute(num, array) {
 	let i,j,temparray,chunk = num;
 	let final = [];
@@ -21,6 +19,7 @@ function distribute(num, array) {
 	console.log('groups of ' + num);
 	console.log(final);
 }
+
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
